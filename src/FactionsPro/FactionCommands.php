@@ -40,7 +40,6 @@ class FactionCommands{
 					$sender->sendMessage($this->plugin->formatMessage("Please use /f help for a list of commands"));
 					return true;
 				}
-				if(count($args == 2)){
 					
 					///////////////////////////////// WAR /////////////////////////////////
 					
@@ -454,7 +453,6 @@ class FactionCommands{
 						return true;
 					}
 				}
-				if(count($args == 1)){
 					
 					/////////////////////////////// CLAIM ///////////////////////////////
 					
@@ -1285,8 +1283,6 @@ class FactionCommands{
 							return true;
 						}
 					}
-				}
-			}
 		} else {
 			$this->plugin->getServer()->getLogger()->info($this->plugin->formatMessage("Please run command in game"));
 		}
